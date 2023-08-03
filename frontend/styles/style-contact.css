@@ -1,0 +1,82 @@
+
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+
+@font-face {
+    font-family: "Exo 2 Light";
+    font-style: normal;
+    src: url('../fonts/Exo 2/static/Exo2-Light.ttf');
+}
+
+@font-face {
+    font-family: "Inter Light";
+    font-style: normal;
+    src: url('../fonts/Inter/static/Inter-Light.ttf');
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    src: url('../fonts/Inter/static/Inter-Regular.ttf');
+}
+
+.contacts-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    /* padding-left: 15%;
+    padding-right: 15%; */
+    width: 40%;
+}
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40%;
+    /* gap: 207px; */
+
+    padding: 5%;
+}
+
+.contact-title{
+    text-align: center;
+    font-family: "Exo 2 Light";
+    font-weight: 300;
+    font-size: 6vw;
+    line-height: 104.5%;
+    letter-spacing: 1.75vw;
+}
+
+.contact-text{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5%;
+}
+
+.contact-text-block{
+    display: inline-block;
+    width: 50%;
+    font-size: 1.85vw;
+    line-height: 200%;
+}
+
+.contact-triangles-left{
+    position: relative;
+    left: -10%;
+    width: 13%;
+}
+.contact-triangles-right{
+    position: relative;
+    bottom: -1.65vw;
+    left: 5%;
+    width: 17%;
+}
