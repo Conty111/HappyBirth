@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Exo 2";
+    font-style: normal;
+    src: url('../fonts/Exo 2/static/Exo2-Medium.ttf');
+}
+
+.achievements-list{
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+.achivement{
+    font-family: "Exo 2";
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2;
+    padding-left: 3rem;
+    background-position: 0 50%;
+    background-size: 2rem 2rem;
+    background-repeat: no-repeat;
+}
+.ach1{
+    background-image: url("../images/Polygon\ 9.svg");
+}
+.ach2{
+    background-image: url("../images/Polygon\ 10.svg");
+}
+.ach3{
+    background-image: url("../images/Polygon\ 11.svg");
+}
+.ach4{
+    background-image: url("../images/Polygon\ 12.svg");
+}
+.ach5{
+    background-image: url("../images/Polygon\ 13.svg");
+}
