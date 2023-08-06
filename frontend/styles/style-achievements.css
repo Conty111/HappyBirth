@@ -5,18 +5,19 @@
 }
 
 .achievements-list{
-    padding-left: 2rem;
+    padding-left: 10vw;
     list-style-type: none;
+    white-space: nowrap;
 }
 
 .achivement{
     font-family: "Exo 2";
     font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 2;
-    padding-left: 3rem;
+    font-size: 2vw;
+    line-height: 2.25;
+    padding-left: 3vw;
     background-position: 0 50%;
-    background-size: 2rem 2rem;
+    background-size: 2vw 2vw;
     background-repeat: no-repeat;
 }
 .ach1{
@@ -33,4 +34,21 @@
 }
 .ach5{
     background-image: url("../images/Polygon\ 13.svg");
+}
+.achivement-triangle{
+    width: 20vw;
+}
+.box-cup{
+    position: relative;
+    overflow: visible;
+    width:35vw;
+}
+
+.box-cup img{
+    position: absolute;
+    top:55%;
+    left:40%;
+    transform:translate(-50%,-50%);
+    width:40vw;
+    object-fit:cover;
 }
