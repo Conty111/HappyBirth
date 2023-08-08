@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-exo-2: "Exo 2";
+  --font-inter: Inter;
+  --font-inherit: inherit;
+
+  /* font sizes */
+  --font-size-56xl: 75px;
+  --font-size-77xl: 96px;
+  --font-size-17xl: 36px;
+  --font-size-109xl: 128px;
+  --font-size-31xl: 50px;
+  --font-size-21xl: 40px;
+  --font-size-61xl: 80px;
+  --font-size-27xl: 46px;
+  --font-size-81xl: 100px;
+  --font-size-29xl: 48px;
+  --font-size-13xl: 32px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-white: #fff;
+  --color-orange-100: #ffb800;
+  --color-orange-300: rgba(255, 184, 0, 0.2);
+  --color-orange-200: rgba(255, 184, 0, 0.32);
+  --color-gainsboro-100: #d9d9d9;
+  --color-gainsboro-200: rgba(217, 217, 217, 0);
+
+  /* Paddings */
+  --padding-12xl: 31px;
+  --padding-11xl: 30px;
+  --padding-24xl: 43px;
+  --padding-14xl: 33px;
+  --padding-99xl: 118px;
+  --padding-81xl: 100px;
+
+  /* border radiuses */
+  --br-21xl: 40px;
+  --br-3xs: 10px;
+  --br-xl: 20px;
+  --br-16xl: 35px;
+}
