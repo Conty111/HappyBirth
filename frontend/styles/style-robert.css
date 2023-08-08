@@ -1,0 +1,30 @@
+.robert-block{
+    margin: 5vh 0 20vh 10%;
+}
+
+.robert-main-block{
+    display: flex; 
+    flex-direction: row;
+}
+
+.robert-img{
+    position: relative;
+    overflow: hidden;
+    width: 45vw;
+    height: 47vw;
+} 
+
+.robert-img img{
+    position: absolute;
+    top:45%;
+    left:45%;
+    transform:translate(-50%,-50%);
+    width:50vw;
+    object-fit:cover;
+}
+
+.robert-title{
+    font-family: "Exo 2";
+    font-weight: 500;
+    line-height: 104%;
+}
