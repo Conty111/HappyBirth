@@ -1,13 +1,8 @@
-@font-face {
-    font-family: "Exo 2";
-    font-style: normal;
-    src: url('../fonts/Exo 2/static/Exo2-Medium.ttf');
-}
-
 .achievements-list{
     padding-left: 10vw;
     list-style-type: none;
     white-space: nowrap;
+    margin-top: 3vw;
 }
 
 .achivement{
@@ -42,6 +37,7 @@
     position: relative;
     overflow: visible;
     width:35vw;
+    margin-top: 9vw;
 }
 
 .box-cup img{
