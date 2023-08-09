@@ -5,8 +5,6 @@ import {
   useLocation,
 } from "react-router-dom";
 import Component from "./pages/Component";
-import Component1 from "./pages/Component1";
-import Component11 from "./pages/Component11";
 import { useEffect } from "react";
 
 function App() {
@@ -29,14 +27,6 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/1":
-        title = "";
-        metaDescription = "";
-        break;
     }
 
     if (title) {
@@ -56,8 +46,6 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Component />} />
-      <Route path="/" element={<Component1 />} />
-      <Route path="/1" element={<Component11 />} />
     </Routes>
   );
 }
