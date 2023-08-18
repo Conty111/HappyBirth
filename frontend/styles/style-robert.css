@@ -1,5 +1,6 @@
 .robert-block{
-    margin: 5vh 0 20vh 10%;
+    /* margin: 5vh 0 20vh 10%; */
+    margin: 3vw 5vw 0 6vw;
 }
 
 .robert-main-block{
@@ -10,21 +11,67 @@
 .robert-img{
     position: relative;
     overflow: hidden;
-    width: 45vw;
-    height: 47vw;
+    width: 50vw;
+    height: 50vw;
 } 
 
 .robert-img img{
     position: absolute;
     top:45%;
-    left:45%;
+    left:50%;
     transform:translate(-50%,-50%);
     width:50vw;
     object-fit:cover;
+}
+
+.robert-text{
+    display: flex; 
+    flex-direction: column; 
+    gap: 1.5vw; 
+    justify-content: start; 
+    margin-top: 5vw;
+    
+    position: relative;
+    left: -2vw;
 }
 
 .robert-title{
     font-family: "Exo 2";
     font-weight: 500;
     line-height: 104%;
+    font-size: 4vw;
+    letter-spacing: 0.5vw;
+    margin: 0;
+}
+
+.otchestvo{
+    color: rgba(255, 184, 0, 0.32);
+    font-family: "Exo 2";
+    font-size: 4.5vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 104.5%;
+    letter-spacing: 28%;
+    margin: 0;
+
+    position: relative;
+    left: 4.5%;
+    bottom: -80%;
+    z-index: -1;
+}
+
+.devops-title{
+    font-family: "Exo 2 Light";
+    font-weight: 300;
+    line-height: 104%;
+    font-size: 4vw;
+    margin: 1vw 0 1vw 0;
+}
+
+.description{
+    font-size: 2vw;
+    font-family: "Exo 2 Light";
+    font-weight: 200;
+    line-height: 150%;
+    margin: 0;
 }

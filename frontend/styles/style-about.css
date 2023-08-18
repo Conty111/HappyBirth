@@ -1,0 +1,58 @@
+.about-block{
+    display: flex;
+    flex-direction: row;
+    overflow: visible;
+}
+
+.about-text{
+    /* padding-left: 16w; */
+    position: relative;
+    left: -5%;
+}
+
+.about-ellipse{
+    position: relative;
+    overflow: visible;
+    margin: 0;
+    width: 16vw;
+    height: 30vw;
+}
+
+.about-ellipse img{
+    position: relative;
+    top: 50%;
+    left: 60%;
+    transform:translate(-50%,-50%);
+    width: 50vw;
+    height: 60vw;
+}
+
+.about-subtext{
+    padding: 1% 0 0 5vw;
+    width: 85%;
+
+    font-family: "Exo 2";
+    font-weight: 500;
+    line-height: 1.15;
+    font-size: 2vw;
+}
+
+.about-robert{
+    position: relative;
+    height:max-content;
+}
+
+.about-robert img{
+    position: relative;
+    bottom: 0%;
+    height: 36vw;
+}
+
+.about-triangles{
+    position: relative;
+    height: max-content;
+}
+
+.about-triangles img{
+    height: 30vw;
+}

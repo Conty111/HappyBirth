@@ -2,6 +2,7 @@ body{
     background-color: black;
     color: whitesmoke;
     cursor: url("../images/icon-cursor.png"), url("../images/icon-tap.png"), default;
+    margin: 0;
 }
 
 @font-face {

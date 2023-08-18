@@ -1,5 +1,5 @@
 .achievements-list{
-    padding-left: 10vw;
+    padding-left: 13vw;
     list-style-type: none;
     white-space: nowrap;
     margin-top: 3vw;
@@ -43,7 +43,7 @@
 .box-cup img{
     position: absolute;
     top:55%;
-    left:40%;
+    left:30%;
     transform:translate(-50%,-50%);
     width:40vw;
     object-fit:cover;

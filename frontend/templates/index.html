@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../styles/style-achievements.css">
     <link rel="stylesheet" href="../styles/style-robert.css">
     <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/style-about.css">
     <title>Document</title>
 </head>
 <body>
@@ -25,23 +26,53 @@
             <div class="robert-img">
                 <img src="../images/Роберт класс (4).svg" alt="Роберт">
             </div>
-            <div style="display: flex; flex-direction: column; gap: 1vw;">
+            <div class="robert-text">
                 <h1 class="robert-title">
-                    Стрыжак <br> Роберт 
+                    <span class="otchestvo">Андреевич</span>
+                    Стрыжак
+                    <p class="robert-title"; style="font-size: 6vw; margin: 0; letter-spacing: 1vw;">Роберт</p>  
+                    
                 </h1>
-                <h2>DevOps-инженер</h2>
-                <p>Студент Колледжа «Сириус» <br> 3 курс, направление 09.02.06: <br> Сетевое и системное администрирование</p>
+                <h2 class="devops-title">DevOps-инженер</h2>
+                <p class="description">Студент Колледжа «Сириус» <br> 
+                    3 курс, направление 09.02.06: <br> 
+                    Сетевое и системное администрирование</p>
             </div>
         </div>
+
         <!-- Стрелочка -->
         <div>
 
         </div>
     </section>
 
+    <!-- Обо мне -->
+    <section class="about-block">
+        <div class="about-ellipse">
+            <img src="../images/Ellipse 2.svg" alt="Ellipse">
+        </div>
+        <div class="about-text">
+            <h1 class="title">ОБО МНЕ</h1>
+            <div class="about-subtext">
+                <p>Мне 19 лет. В 17 я уехал из родной Тюмени в Сочи учиться. 
+                Люблю всё, что связано с компьютерами, спортом и горчичным цветом. </p>
+                <p>Скачать резюме в <span style="color: rgba(255, 184, 0, 0.90);">pdf-формате</span> можно ниже, 
+                а на этом сайтике чуть более подробно)</p>
+                <div>Download pdf</div>
+            </div>
+        </div>
+        <div class="about-robert">
+            <img src="../images/Роберт.svg" alt="Роберт">
+        </div>
+        <div class="about-triangles">
+            <img src="../images/AboutBlockTriangles.svg" alt="triangles">
+        </div>
+        
+    </section>
+
     <!-- Другие достижения -->
     <section class="achievements-block">
-        <h1 class="title" style="padding-left: 16vw; margin-bottom: 0;">ДРУГИЕ ДОСТИЖЕНИЯ</h1>
+        <h1 class="title" style="padding-left: 11vw; margin-bottom: 0;">ДРУГИЕ ДОСТИЖЕНИЯ</h1>
         <div style="display: flex; flex-direction: row;">
             <ul class="achievements-list">
                 <li class="achivement ach1">Финал Tinkoff Solution cup (направление SRE)</li>
@@ -56,11 +87,13 @@
         </div>
     </section>
 
+    
+
     <!-- Контакты -->
     <section class="contacts-block">
         <img src="../images/Group 14.svg" alt="triangles" class="contact-triangles-left">
         <div class="contact-info">
-            <h1 class="title">КОНТАКТЫ</h1>
+            <h1 class="title" style="position: relative; left: -5vw;">КОНТАКТЫ</h1>
 
             <div class="contact-text">
                 <div class="contact-text-block" style="font-family: 'Inter Light';">
