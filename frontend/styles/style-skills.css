@@ -1,0 +1,82 @@
+.skills-block{
+    margin-top: 10vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-family: "Exo 2";
+    font-weight: 400;
+}
+
+.skills-ribbon{
+    width: 100%;
+    height: min-content;
+    overflow: hidden;
+}
+
+.skills-ribbon img{
+    height: 5vw;
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5vw;
+    gap: 8vw;
+}
+
+.skills-content{
+    background-color: black; 
+    width: 99%; 
+    height: 99%;
+
+    position: relative;
+    top: 0.5%;
+    left: 0.5%;
+}
+
+.soft-skills{
+    border-width: 1vw;
+    background: linear-gradient(to left, white, black);
+    border-radius: 0 2.5vw 2.5vw 0;
+    width: 40vw;
+}
+
+.hard-skills{
+    border-width: 1vw;
+    background: linear-gradient(to right, white, black);
+    border-radius: 2.5vw 0 0 2.5vw;
+    width: 40vw;
+}
+
+.skills-title{
+    display: flex;
+    flex-direction: row;
+    padding: 1vw;
+    gap: 2vw;
+
+    font-size: 5vw;
+}
+
+.soft{
+    justify-content: right;
+    margin-right: 2vw;
+}
+
+.hard{
+    justify-content: left;
+    margin-left: 2vw;
+}
+
+.skills-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 27vw;
+    height: 77%;
+
+    padding-left: 2vw;
+    font-size: 2.5vw;
+}
