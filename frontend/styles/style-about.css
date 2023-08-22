@@ -39,13 +39,12 @@
 
 .about-robert{
     position: relative;
-    height: max-content;
 }
 
 .about-robert img{
     position: relative;
     bottom: 0%;
-    height: 36vw;
+    height: 35vw;
 }
 
 .about-triangles{

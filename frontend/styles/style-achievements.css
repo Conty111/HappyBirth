@@ -36,15 +36,15 @@
 .box-cup{
     position: relative;
     overflow: visible;
-    width:35vw;
+    width:45vw;
     margin-top: 9vw;
 }
 
 .box-cup img{
     position: absolute;
     top:55%;
-    left:30%;
+    left:35%;
     transform:translate(-50%,-50%);
-    width:40vw;
+    width:45vw;
     object-fit:cover;
 }
