@@ -1,3 +1,11 @@
+:root {
+    --index: calc(1vw + 1vh);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: black;
     color: whitesmoke;

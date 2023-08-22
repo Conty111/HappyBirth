@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/style-about.css">
     <link rel="stylesheet" href="../styles/style-skills.css">
+    <link rel="stylesheet" href="../styles/style-work.css">
+    <script src="../scripts/slider.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -42,9 +44,9 @@
         </div>
 
         <!-- Стрелочка -->
-        <div>
-
-        </div>
+        <a href="#about-robert">
+            <div class="arrow-8"></div>
+        </a>
     </section>
 
     <!-- Обо мне -->
@@ -52,14 +54,14 @@
         <div class="about-ellipse">
             <img src="../images/Ellipse 2.svg" alt="Ellipse">
         </div>
-        <div class="about-text">
+        <div class="about-text" id="about-robert">
             <h1 class="title">ОБО МНЕ</h1>
             <div class="about-subtext">
                 <p>Мне 19 лет. В 17 я уехал из родной Тюмени в Сочи учиться. 
                 Люблю всё, что связано с компьютерами, спортом и горчичным цветом. </p>
                 <p>Скачать резюме в <span style="color: rgba(255, 184, 0, 0.90);">pdf-формате</span> можно ниже, 
                 а на этом сайтике чуть более подробно)</p>
-                <div>Download pdf</div>
+                <a class="download-pdf" href="../Стрыжак_роберт.pdf" download="Стрыжак_CV.pdf">Download pdf</a>
             </div>
         </div>
         <div class="about-robert">
@@ -118,6 +120,62 @@
         </div>
     </section>
 
+    <!-- Опыт работы -->
+    <section class="work-block" onselectstart = 'return false'>
+        <div class="work-experience-title-outer">
+            <h1 class="title work-experience">ОПЫТ РАБОТЫ</h1>
+        </div>
+        <div class="cards">
+            <div class="work-card">
+                <div class="company">
+                    ОЦРВ
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Работа <br> DEVOPS</h3>
+                    <ul style="padding-left: 10%;">
+                        <li class="card-text">Написал ТЗ для CI-CD системы, а также технический проект</li>
+                        <li class="card-text">Создал виртуальные машины в proxmax, периодически делал снапшоты</li>
+                        <li class="card-text">Пайплайн для Gitlab, который откатывает машины к нужному состоянию, 
+                        тестирует его и собирает на заготовленных машинах</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="work-card active">
+                <div class="company">
+                    Ростелеком
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Стажировка <br> DEVOPS</h3>
+                    <ul style="padding-left: 10%;">
+                        <li class="card-text">Развертывание серверов Linux с помощью Ansible и vagrant</li>
+                        <li class="card-text">Работа с Kubernetes, Gitlab-CI, prometheus, grafana</li>
+                        <li class="card-text">Развертывание серверов, обьединение их в кластер k8s</li>
+                        <li class="card-text">Подключение Prometheus для мониторинга и подключение grafana к нему</li>
+                    </ul>  
+                </div>
+            </div>
+            <div class="work-card">
+                <div class="company">
+                    Гринатом
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Стажировка<br> DEVOPS</h3>
+                    <ul style="padding-left: 10%;">
+                        <li class="card-text">Разворачивание серверов Linux с помощью ansible и vagrant</li>
+                        <li class="card-text">Работа с Kubernetes, Gitlab-CI, prometheus, grafana</li>
+                        <li class="card-text">Развертывание серверов, обьединение их в кластер k8s</li>
+                        <li class="card-text">Подключение Prometheus для мониторинга и подключение grafana к нему</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="cards-dotes">
+            <div class="dote"></div>
+            <div class="dote active-dote"></div>
+            <div class="dote"></div>
+        </div>
+    </section>
+
     <!-- Другие достижения -->
     <section class="achievements-block">
         <h1 class="title" style="padding-left: 11vw; margin-bottom: 0;">ДРУГИЕ ДОСТИЖЕНИЯ</h1>
@@ -154,14 +212,15 @@
                 </div>
             </div>
             <div class="social-icons">
-                <img src="../images/github-svgrepo-com 1.svg" alt="github link" style="width: 7vw;">
-                <img src="../images/telegram-logo-svgrepo-com 1.svg" alt="telegram link" style="width: 7vw;">
-                <img src="../images/Group 1321314680.svg" alt="vk link" style="width: 7vw;">
+                <img onclick="href_github()" src="../images/github-svgrepo-com 1.svg" alt="github link" style="width: 7vw; cursor: pointer;">
+                <img onclick="href_tg()" src="../images/telegram-logo-svgrepo-com 1.svg" alt="telegram link" style="width: 7vw; cursor: pointer;">
+                <img onclick="href_vk()" src="../images/Group 1321314680.svg" alt="vk link" style="width: 7vw; cursor: pointer;">
             </div>
         </div>
         <img src="../images/Group 13.svg" alt="triangles" class="contact-triangles-right">
     </section>
 
     <script src="../scripts/page_reload.js"></script>
+    <script src="../scripts/buttons.js"></script>
 </body>
 </html>
