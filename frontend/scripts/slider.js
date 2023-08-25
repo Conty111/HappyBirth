@@ -24,7 +24,14 @@ cards_block.addEventListener("mouseup", function(event) {
     mouse_move=false;
     mousePressed = false;
     slideDirection = slideDirection / Math.abs(slideDirection);
-    console.log(slideDirection);
+    can_slide=true;
+})
+
+
+cards_block.addEventListener("touchend", function(event) {
+    mouse_move=false;
+    mousePressed = false;
+    slideDirection = slideDirection / Math.abs(slideDirection);
     can_slide=true;
 })
 
@@ -46,6 +53,21 @@ function slide(d) {
 
 window.addEventListener("mousemove", function(event) {
     finishMouseX = event.clientX;
+    mouse_move = true;
+    slideDirection = finishMouseX - startMouseX;
+    if (mousePressed && Math.abs(slideDirection) > sensivity && can_slide){
+        var d = slideDirection / Math.abs(slideDirection);
+        slide(-d)
+    }
+})
+
+cards_block.addEventListener("touchstart", function(event) {
+    startMouseX = event.touches[0].clientX;
+    mousePressed = true;
+})
+
+window.addEventListener("touchmove", function(event) {
+    finishMouseX = event.touches[0].clientX;
     mouse_move = true;
     slideDirection = finishMouseX - startMouseX;
     if (mousePressed && Math.abs(slideDirection) > sensivity && can_slide){
